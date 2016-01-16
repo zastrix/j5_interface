@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>j5_msgs</name>
+  <version>0.1.0</version>
+  <description>J5 Custom Messages</description>
+
+  <maintainer email="lbrunet@provectus-robotics.com">Luc Brunet</maintainer>
+  <author email="lbrunet@provectus-robotics.com">Luc Brunet</author>
+  <url type="website">http://www.provectus-robotics.com</url>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>

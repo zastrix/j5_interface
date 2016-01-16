@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>j5</name>
+  <version>0.1.0</version>
+  <description>Example source code to control the J5 mobility platform with a ROS node</description>
+
+  <maintainer email="lbrunet@provectus-robotics.com">Luc Brunet</maintainer>
+  <author email="lbrunet@provectus-robotics.com">Luc Brunet</author>
+  <url type="website">http://www.provectus-robotics.com</url>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>j5_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
